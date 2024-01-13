@@ -1,0 +1,98 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/* header design */
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background: rgba(255, 144, 14, 0.10);
+
+    ;
+}
+/* nav design */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+nav h1{
+    color:#131313;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 2.8125em;
+    font-weight: 700;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 477px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#424242;
+    font-family: Work Sans;
+    font-size: 1.125em;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    gap: 70px;
+    margin-top: 100px;
+}
+.banner-content{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.banner-content h1{
+    color:#131313;
+    font-family: Work Sans;
+    text-align: center;
+    font-size: 4em;
+}
+.banner-content p{
+    color:#727272;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1em;
+    line-height: 162%;
+}
+.banner-content button{
+    width: 180px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.25em;
+    font-weight: 600;
+}
+.banner img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* main design */
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
